@@ -1,0 +1,34 @@
+.find .find__header-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.find .header-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.find .header-btn__title {
+    display: block;
+}
+
+.find .header-btn__title {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+/*.find .find__header-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.find .header-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.find .header-btn__title {
+    display: block;
+} */
