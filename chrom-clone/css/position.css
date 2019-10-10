@@ -7,17 +7,12 @@
 #center, #center-below {
     position: absolute;
     display: block;
-    top: 30%;
+    top: 40%;
     left: 50%;
     width: 100%;
     text-align: center;
 }
 
 #center {
-    transform: translate(-50%, -30%);
-}
-
-#center-below {
-    transform: translateX(-50%);
-    top: 50%;
+    transform: translate(-50%, -40%);
 }

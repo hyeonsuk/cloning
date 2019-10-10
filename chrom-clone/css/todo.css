@@ -1,0 +1,21 @@
+.toDoList input {
+    padding: .2em 2em;
+    margin-bottom: 1em;
+}
+
+.toDoList ul {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: start;
+    font-size: 1.5em;
+}
+
+.toDoList button {
+    background-color: rgba( 255, 255, 255, 0);
+    color: white;
+    border: none;
+    border: 1px solid white;
+    margin-left: 1em;
+    font-size: .7em;
+}
