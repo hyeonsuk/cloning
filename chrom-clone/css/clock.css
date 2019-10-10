@@ -1,0 +1,32 @@
+.clock h1 {
+    font-size: 8em;
+    margin: .1em 0;
+}
+
+input[type=text] {
+    height: auto;
+    line-height: normal;
+    padding: .2em 0;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: .1em;
+    background-color: rgba( 255, 255, 255, 0);
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+input[type=text]:focus{
+    outline: none;
+}
+
+input[type=text]::placeholder{
+    color: white;
+}
+
+.clock h2 {
+    font-size: 3em;
+    margin: .5em 0;
+}
+
+

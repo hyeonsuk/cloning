@@ -1,0 +1,23 @@
+#top {
+    top: 60px;
+    left: 0;
+    position: absolute;
+}
+
+#center, #center-below {
+    position: absolute;
+    display: block;
+    top: 30%;
+    left: 50%;
+    width: 100%;
+    text-align: center;
+}
+
+#center {
+    transform: translate(-50%, -30%);
+}
+
+#center-below {
+    transform: translateX(-50%);
+    top: 50%;
+}
