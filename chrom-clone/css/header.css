@@ -2,7 +2,7 @@
     position: fixed;
     top: 0;
     width: 100%;
-    margin: 20px auto;
+    margin: 30px auto;
 }
 
 .top-left {
@@ -28,4 +28,9 @@
     color: white;
     text-decoration: none;
     font-weight: 400;
+}
+
+.js-weather {
+    display: flex;
+    vertical-align: middle;
 }
