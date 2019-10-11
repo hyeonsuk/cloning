@@ -2,35 +2,45 @@
     position: fixed;
     top: 0;
     width: 100%;
-    margin: 30px auto;
+    margin: 1em 0;
 }
 
 .top-left {
     position: relative;
     float: left;
-    margin-left: 12px;
+    margin-left: 30px;
 }
 
 .top-right {
     position: relative;
     float: right;
-    margin-right: 12px;
+    margin-right: 30px;
 }
 
-.main-nav {
+.top-left .main-nav {
     display: inline-block;
     margin-left: 10px;
 }
 
 .main-nav a {
-    padding-right: 12px;
+    padding: 34px 12px 0 0;
     cursor: pointer;
     color: white;
     text-decoration: none;
     font-weight: 400;
+    line-height: 75px;
 }
 
 .js-weather {
     display: flex;
-    vertical-align: middle;
+    right: 0;
+}
+
+.js-weather .js-title {
+    line-height: 45px;
+}
+
+.top-right .js-place {
+    float: right;
+    right: 0;
 }
