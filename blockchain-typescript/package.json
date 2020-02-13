@@ -1,0 +1,11 @@
+{
+    "name": "typechain",
+    "version": "1.0.0",
+    "main": "index.ts",
+    "repository": "https://github.com/hyeonsook/cloning/blockchain-typescript",
+    "license": "MIT",
+    "scripts": {
+        "start": "node index.js",
+        "prestart": "tsc"
+    }
+}
