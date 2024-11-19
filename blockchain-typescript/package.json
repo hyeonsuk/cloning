@@ -8,7 +8,7 @@
         "start": "tsc-watch --onSuccess \" node ./dist/index.js  --compiler h\\AppData\\Roaming\\npm\\tsc"
     },
     "dependencies": {
-        "tsc-watch": "^4.1.0",
+        "tsc-watch": "^4.6.2",
         "typescript": "^3.8.2"
     }
 }
